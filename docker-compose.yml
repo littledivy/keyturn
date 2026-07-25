@@ -1,0 +1,19 @@
+services:
+  keyturn:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "${PORT:-5051}:5051"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      STATE_DIR: /data
+      PORT: 5051
+      MAPKIT_PRIVATE_KEY_PATH: /run/secrets/mapkit-private-key
+    volumes:
+      - keyturn-data:/data
+      - "${MAPKIT_PRIVATE_KEY_PATH:-/dev/null}:/run/secrets/mapkit-private-key:ro"
+
+volumes:
+  keyturn-data:

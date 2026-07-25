@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files generated at runtime
+data.csv
+
+# Environment variables
+.env
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# pytest
+.pytest_cache/
+
+# Selenium persistent login profile (contains session cookies)
+.chrome-profile/
+config.json
+data.csv
+geocache.json
+cands.json
+detail_resp.json
+*.log
+*.err
+*.out
+*.pid
+.omc/
+rentals.db
+rentals.db-shm
+rentals.db-wal
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.p8
+*.pem
+*.key
+*.pdf
+*.docx
+backups/

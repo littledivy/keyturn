@@ -1,0 +1,36 @@
+{
+  "contact": {
+    "firstname": "Jane",
+    "lastname": "Doe",
+    "email": "jane@example.com",
+    "phone": "+31123456789"
+  },
+  "search": {
+    "cities": ["rotterdam"],
+    "min_price": 1000,
+    "max_price": 2300
+  },
+  "criteria": {
+    "note_for_llm": "Self-contained apartments only. Avoid shared rooms, student-only, no-registration, temporary, and anti-squat listings.",
+    "min_area_m2": 40,
+    "max_bedrooms": 2,
+    "interior_allowed": ["Upholstered", "Furnished"],
+    "exclude_kinds": ["room"],
+    "districts": {
+      "centrum": ["Centrum", "Stadsdriehoek", "Cool", "Oude Westen", "Nieuwe Werk", "Dijkzigt", "CS Kwartier", "Scheepvaartkwartier"],
+      "noord": ["Blijdorp", "Bergpolder", "Provenierswijk", "Oude Noorden", "Agniesebuurt", "Liskwartier"],
+      "west": ["Delfshaven", "Bospolder", "Tussendijken", "Nieuwe Westen", "Middelland", "Spangen", "Schiemond", "Lloydkwartier"],
+      "oost": ["Kralingen West", "Kralingen Oost", "Kralingen", "Prinsenland", "Struisenburg"],
+      "zuid": ["Katendrecht", "Kop van Zuid", "Kop van Zuid - Entrepot", "Feijenoord", "Noordereiland", "Oud Charlois"]
+    },
+    "avoid": ["room", "student only", "no registration", "anti-squat", "temporary"]
+  },
+  "ntfy": {
+    "topic": ""
+  },
+  "watch": {
+    "interval_seconds": 240,
+    "jitter_seconds": 60
+  },
+  "dashboard_url": "http://127.0.0.1:5050"
+}

@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+pandas
+selenium
+fake-useragent
+pytest
+curl_cffi
+Flask
+geopy
+gunicorn>=23.0.0
+python-dotenv>=1.0.1
+PyJWT[crypto]>=2.8.0
