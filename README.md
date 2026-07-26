@@ -2,6 +2,9 @@
 
 Self-hosted, multi-user rental search for Pararius with fit scoring, application tracking, alerts, and Apple Maps. All runtime state lives in one SQLite database.
 
+Landlords get a several people applying within minutes of an apartment going up on online portals like Funda and Pararius. There are paid subscription services that provide
+notifications for newly posted rentals, this is free. This can also "auto-apply" for you using a personalised message specific to the listing and you can specify your creterias in natural language. 
+
 ![Keyturn dashboard with Apple Maps](assets/dashboard.png)
 
 ```sh
